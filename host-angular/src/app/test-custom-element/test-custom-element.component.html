@@ -1,0 +1,11 @@
+<fieldset>
+  <legend>test-custom-element.component</legend>
+
+  <div class="selection-info">
+    <p>Click any of the drinks in the list below to select a drink.</p>
+    <p>Drink Selected: {{ drink }}</p>
+  </div>
+
+  <p>Below is our custom library component</p>
+  <my-lib [headerText]="'My Header'" (drinkSelection)="setDrink($event)"></my-lib>
+</fieldset>

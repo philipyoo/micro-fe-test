@@ -1,0 +1,9 @@
+<fieldset>
+  <legend>protected.component</legend>
+
+  <ng-container *ngIf="!!userData">
+    <ul>
+      <li *ngFor="let user of userData">{{ user?.name }} is {{ user?.age }} year(s) old</li>
+    </ul>
+  </ng-container>
+</fieldset>

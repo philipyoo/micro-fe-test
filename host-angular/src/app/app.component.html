@@ -1,0 +1,14 @@
+<fieldset>
+  <legend>Host Application</legend>
+
+  <h2>Navigation</h2>
+  <div class="btns">
+    <button routerLink="/">Home</button>
+    <button *ngIf="!isAuthenticated" (click)="oktaAuth.login('/')">Login</button>
+    <button *ngIf="isAuthenticated" (click)="oktaAuth.logout()">Logout</button>
+    <button routerLink="/protected">Protected</button>
+    <button routerLink="/custom">Custom</button>
+  </div>
+
+  <router-outlet></router-outlet>
+</fieldset>

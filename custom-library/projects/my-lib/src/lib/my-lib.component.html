@@ -1,0 +1,11 @@
+<fieldset>
+  <legend>Custom Library Component</legend>
+
+  <h3>{{ headerText }}</h3>
+
+  <ng-container *ngIf="drinkData">
+    <ul>
+      <li *ngFor="let drink of drinkData" (click)="drinkSelected(drink)">{{ drink?.name }}</li>
+    </ul>
+  </ng-container>
+</fieldset>

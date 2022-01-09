@@ -1,0 +1,16 @@
+fieldset {
+  border: 3px dotted green;
+}
+
+fieldset legend {
+  color: green;
+}
+
+.btns {
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.btns button {
+  padding: 5px;
+}

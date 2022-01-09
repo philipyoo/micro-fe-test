@@ -1,0 +1,16 @@
+{
+  "drinks": [
+    { "name": "Soda" },
+    { "name": "Beer" },
+    { "name": "Smoothie" },
+    { "name": "Juice" },
+    { "name": "Wine" }
+  ],
+  "users": [
+    { "name": "Adam", "age": 20 },
+    { "name": "Brett", "age": 50 },
+    { "name": "Cindy", "age": 30 },
+    { "name": "Dave", "age": 60 },
+    { "name": "Esther", "age": 40 }
+  ]
+}

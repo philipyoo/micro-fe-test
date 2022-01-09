@@ -1,0 +1,8 @@
+fieldset {
+  border: 1px dotted blue;
+}
+
+fieldset legend {
+  font-style: italic;
+  color: blue;
+}
