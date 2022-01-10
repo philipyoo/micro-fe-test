@@ -43,3 +43,6 @@ To consume the custom library from a private directory, add the dependency like 
 }
 ```
 
+## About the Library Component
+
+See the [MyLib README](./projects/my-lib/README.md) for more.
